@@ -1,0 +1,14 @@
+.actor {
+  margin: 20px 0 10px 0;
+}
+
+.actor__name {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.actor__role {
+  margin: 5px 0;
+  font-size: 12px;
+}
