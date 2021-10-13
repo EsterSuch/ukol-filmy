@@ -2,14 +2,13 @@ import React from 'react';
 import '../Movie/style.css';
 import Actor from '../Actor';
 
-//import '../assets';
 
 const Movie = ({ title, poster, year, rating, director, genre, cast }) => {
   return (
     <>
       <div className="movie">
         <div className="movie__pic">
-          <img src={poster} alt="poster" />
+          <img src={'/assets/' + poster} alt="poster" />
         </div>
 
         <div className="movie__desc">

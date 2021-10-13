@@ -2,9 +2,7 @@ import React from 'react';
 import '../MovieList/style.css';
 import Movie from '../Movie';
 
-//import movies from '../movies';
-
-const MovieList = () => {
+const MovieList = ({plays}) => {
   return (
     <div className="movie__list">
       {plays.map(film => (
