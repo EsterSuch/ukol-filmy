@@ -2,7 +2,7 @@ import React from 'react';
 import '../Movie/style.css';
 import Actor from '../Actor';
 
-import '../assets';
+//import '../assets';
 
 const Movie = ({ title, poster, year, rating, director, genre, cast }) => {
   return (
@@ -26,9 +26,8 @@ const Movie = ({ title, poster, year, rating, director, genre, cast }) => {
           </div>
 
           <div className="roles">
-            {cast.map((act) => (
-              <Actor key={act.name} name={act.name} as={act.as} />
-            ))}
+            {cast.map(act => 
+              <Actor key={act.name} name={act.name} as={act.as} />)}
           </div>
         </div>
       </div>

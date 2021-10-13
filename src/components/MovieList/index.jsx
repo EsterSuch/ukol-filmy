@@ -2,12 +2,12 @@ import React from 'react';
 import '../MovieList/style.css';
 import Movie from '../Movie';
 
-import movies from '../movies';
+//import movies from '../movies';
 
 const MovieList = () => {
   return (
     <div className="movie__list">
-      {movies.map(film => (
+      {plays.map(film => (
         <Movie
           key={film.id}
           title={film.title}
